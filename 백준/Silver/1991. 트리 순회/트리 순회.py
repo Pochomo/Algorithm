@@ -14,8 +14,7 @@ def inorder_traversal(node, graph, result):
     
     if node in graph:
         inorder_traversal(graph[node][0], graph, result)
-    result.append(node)
-    if node in graph:
+        result.append(node)
         inorder_traversal(graph[node][1], graph, result)
     
     return result
