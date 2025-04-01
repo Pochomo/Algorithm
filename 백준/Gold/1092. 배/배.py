@@ -18,6 +18,8 @@ if cranes[0] < boxes[0]:
 else:
     while boxes:
         for crane in cranes:
+            if boxes and crane < boxes[-1]:
+                continue
             for box in boxes:
                 if crane >= box:
                     boxes.remove(box)
