@@ -26,7 +26,7 @@ def solution(new_id):
                 del new_id[i+1:index_point+1]
         i += 1
     
-    # 4단계: 마침표(.)가 처음이나 끝에 위치한다면 제거
+    # 4단계
     if new_id and new_id[0] == '.':
         del new_id[0]
     if new_id and new_id[-1] == '.':
