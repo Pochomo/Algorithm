@@ -9,3 +9,9 @@ def solution(s):
     else:
         answer = False   
     return answer
+
+#def alpha_string46(s):
+#   import re
+#    return bool(re.match("^(\d{4}|\d{6})$", s))
+
+# s.isdigit()을 써도된다.
