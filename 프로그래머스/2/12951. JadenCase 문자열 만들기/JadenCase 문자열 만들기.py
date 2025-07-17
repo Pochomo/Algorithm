@@ -4,7 +4,6 @@ def solution(s):
 
     for char in s:
         if first_word:
-            # 알파벳이고 대문자로 만들고 append
             result.append(char.upper() if char.isalpha() else char)
             first_word = False
         else:
