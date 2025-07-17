@@ -1,4 +1,4 @@
-def solution(s: str) -> str:
+def solution(s):
     result = []
     first_word = True
 
