@@ -10,6 +10,7 @@ def solution(k, tangerine):
     cnt = list(time.values())
     cnt.sort(reverse = True)
     
+    # 큰 수 부터
     answer = 0
     total = 0
     for i in cnt:
